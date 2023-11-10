@@ -1,0 +1,230 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.Background{
+    position: relative;
+    display: flex;
+    margin: 0;
+    width: 100vw;
+    height: 100vh; 
+    z-index: -1;    
+    background-image: linear-gradient(to bottom,black, white);
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    position: relative;
+    vertical-align: top;
+    height: 112px;
+    margin-top: 32px;
+}
+.logo {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 42px;
+    margin-top: 72px;
+    width: 337px;
+}
+.header {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 112px;
+    background-color: transparent;
+    z-index: 100;
+}
+button{
+    font-size: 13px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+    transition: border 0.25s;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+    cursor: pointer;
+    width: auto;
+}
+.btn-lupa{
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    font-size: 20px;
+    cursor: pointer;
+    width: auto;
+    padding-left: 255px;
+}
+.svg{
+    height: 20px;
+    width: 20px;
+    padding-top: 10%;
+}
+#menu_p{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    float: right;
+    padding-right: 30px;
+    position: relative;
+    margin-right: 0px;
+}
+#menu_p ul{
+    max-width: 700px;
+    list-style: none;
+    padding: 0;
+    vertical-align: top;
+}
+#menu_p ul li{
+  display: inline;
+}
+#menu_p ul li a{
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+#menu_p ul li a:hover{
+    background-color: rgba(88, 87, 87, 0.219);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+}
+#menu_p ul li a:active {
+    opacity: 0.5;
+    border-radius: 20px;
+}
+.centro{
+    position: absolute;
+    display: grid;
+}
+.login{
+    position: absolute;
+    display: grid;
+    top: 50%;
+    left: 36%;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    background: #D9D9D9;
+    border-radius: 20px;
+    width: 501.75px;
+    height: 552.75px;
+}
+.text2{
+   width: 398.25px;
+   height: 153.75px;
+}
+.login-text{
+    font-size: 40px;
+    font-weight: 600;
+    align-items: center;
+}
+.login-text2{
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    justify-items: center;
+}
+.email, .senha {
+    position: relative;
+    display: inline-block;
+    width: 398.25px;
+    height: 70px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: none;
+    font-weight: 600;
+}
+.text{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    font-size: 120px;
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+.search-bar{
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 35px;
+width: 300px;
+border-style: solid;
+border-radius: 20px;
+border-width: 3px;
+border-color: black;
+margin-top: 200px;
+}
+.barra_p{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    padding-left: 8px;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-style: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+    column-gap: 20px;
+    row-gap: 40px;
+    justify-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.evento{
+    width: 400px;
+    height: auto;
+    display: grid;
+}
+.evento img{
+    width: 100%;
+
+}
+.titulo{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.data{
+    color: rgba(0, 0, 0, 0.547);
+    font-size: 15px;
+    text-align: center;
+}
