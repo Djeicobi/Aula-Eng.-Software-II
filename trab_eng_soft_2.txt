@@ -1,0 +1,41 @@
+Projeto: E-commerce de fotografias
+
+Titulo: Foto Síntese
+
+1.Análise de Requisitos:
+ 
+* Sistema de e-commerce de fotografias digitais, baseada em demandas ou amostras gerais;
+
+* Requisitos:
+ Requisitos Funcionais:
+	O sistema deve cadastrar usuários (cliente);
+	O sistema deve cadastrar eventos;
+	O sistema deve armazenar fotos (arquivos de imagem) dentro desses eventos;
+	O sistema deve armazenar em um carrinho de compras, as fotos selecionadas pelos usuários;
+	O sistema deve disponibilizar as imagens adquiridas pelo usuário em uma página, além de oferecer o envio por e-mail;
+	O sistema deve disponibilizar a contratação de eventos por clientes (usuários);
+Requisitos Inversos:
+	O sistema não deve permitir a aquisição da mesma foto mais de uma vez, pelo mesmo usuário;
+	O sistema não deve permitir o download das imagens sem a aquisição prévia;
+
+
+
+2 - Modelagem de Dados
+* Criação do DER
+* Criação do Dicionário de Dados
+
+3 - Modelagem de Processos
+
+*Ciração do Diagrama de Fluxo de Dados
+
+4 - Implementação
+*Cronograma de desenvolvimento
+*Seleção de linguagens de programação e frameworks
+
+5 - Testes e Validação
+*Cronograma de testes e validação
+
+6 - Documentação
+*Manual de usuário
+*Descrição do Sistema
+*Relatório Técnico(?)
